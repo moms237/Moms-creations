@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moms E-com</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: white;
+      color: background: hsla(332, 53%, 82%, 1);
+      background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+      background: -moz-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+      background: -webkit-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E9B7CE", endColorstr="#D3F3F1", GradientType=1 );
+      padding: 10px;
+      width: 715px;
+      text-align: left;
+    }
+
+    .nouveaute {
+      font-size: 48px;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 20px;
+      background: linear-gradient(90deg, #007bff 0%, #dc3545 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .btn {
+      width: 200px;
+      height: 50px;
+      font-size: 24px;
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #3e8e41;
+    }
+  .navbar-brand{
+    font-size:35px;
+    padding:240px;
+    text-align:center;
+    margin-bottom: 20px;
+      background: linear-gradient(90deg, #007bff 0%, #dc3545 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#" style="width: 200px; height: 50px;">Moms Sh🛍p</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" style="font-size: 20px;">Accueil <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="font-size: 20px;">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="font-size: 20px;">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="nouveaute">Nouveautés</h1>
+    <main>
+      <section class="Articles">
+        <h1>iphone 16</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="iphone16.jpg" alt="iPhone 16" class="image-Articles">
+              <div class="card-body">
+                <p class="card-text">L'iPhone 16 est un smartphone haut de gamme avec un écran Super Retina XDR, un processeur A18 Pro, une caméra Pro de 48 mégapixels et des fonctionnalités de sécurité avancées.</p>
+                <p class="card-text">Prix : 1.450.000 FCFA</p>
+                <button class="btn btn-primary" id="ajouter-iphone">Ajouter</button>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <section class="Articles">
+        <h1> Casque sony </h1>
+            <img src="Casque sony.jpg" alt="casque sony">
+            <div class="card-body">
+             
+              <p class="card-text">Le casque Sony est un casque audio haute fidélité avec une qualité sonore exceptionnelle et un design élégant.</p>
+              <p class="card-text">Prix : 55.675 fcfa</p>
+              <button class="btn btn-primary" id="ajouter-casque">Ajouter</button>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <section class="Articles">
+        <h1> Microsoft hp </h1>
+            <img src="Microsoft HP.jpg" alt="Microsoft hp">
+            <div class="card-body">
+              <p class="card-text">L'ordinateur portable Microsoft HP est un ordinateur puissant et portable avec un écran tactile et des fonctionnalités de sécurité avancées.</p>
+              <p class="card-text">Prix : 750.000fcfa</p>
+              <button class="btn btn-primary" id="ajouter-ordinateur">Ajouter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p>pour plus d'info...</p>
+      <p> 📧:momscreation237@gmail.com</p>
+      <p> 📞:6 95 88 52 93 / 6 87 54 68 51</p>
+      <p>&copy;Moms creation 2025</p>
+    </div>
+  </footer>
+  <script>
+    // Simulation de la fonctionnalité d'ajout au panier
+    document.getElementById("ajouter-iphone").addEventListener("click", function() {
+      alert("L'iPhone 16 a été ajouté à votre panier !");
+    });
+    
+    document.getElementById("ajouter-casque").addEventListener("click", function() {
+      alert("Le casque Sony a été ajouté à votre panier !");
+    });
+    
+    document.getElementById("ajouter-ordinateur").addEventListener("click", function() {
+      alert("L'ordinateur portable Microsoft HP a été ajouté à votre panier !");
+    });
+    
+    // Simulation d'une fonctionnalité de paiement
+    document.getElementById("payer").addEventListener("click", function() {
+      alert("Merci pour votre achat ! Votre commande sera traitée sous peu.");
+    });
+  </script>
+</body>
+</html>
